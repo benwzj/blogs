@@ -4,18 +4,20 @@ date: 2023-05-12
 ---
 
 
-The core concept is that it is a lazy processing.
+In short: it is a lazy processing.
 
-I am going to make two example to display how for...in loop work underneath the cover.
-First one is loop over a enumerate object, and second one is loop over a range object.
+I am going to make two example to display how *for...in* loop work underneath the cover.  
+First one is loop over a enumerate object, and second one is loop over a range object. Both of them will modify the list inside the loop.
 
 # First example:
 
+```python
 lst = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for i, value in enumerate(lst):
    lst.pop(i)
 print(lst)
+```
 
 **There are No error raising for these codes, but they are not work as expected.**
 
@@ -60,7 +62,7 @@ for i in range(len(lst)):
 
 **This code will raise IndexError**
 
-*range()* is iterable, but *len(lst)* in range() parameter here have been replace with constant value 10. Because *len(lst)* is not a lazy process. it don’t change any more. So *i* will up to 9. 
+*range()* is iterable, but *len(lst)*, the parameter of *range()*, have been replace with constant value 10. Because *len(lst)* is not a lazy process. It don’t change any more. So *i* will up to 9. 
 
 **The codes are equivalent to:**
 
