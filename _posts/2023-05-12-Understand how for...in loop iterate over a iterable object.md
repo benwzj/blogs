@@ -17,8 +17,9 @@ for i, value in enumerate(lst):
    lst.pop(i)
 print(lst)
 
-- There are No error raising for these codes, but they are not work as expected.
+**There are No error raising for these codes, but they are not work as expected.**
 The code print below:
+
 ```
 [1, 3, 5, 7, 9] 
 ```
