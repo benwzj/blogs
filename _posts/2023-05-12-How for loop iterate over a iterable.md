@@ -1,10 +1,11 @@
 ---
-title: "How *for* loop iterate an iterable in Python"
+title: "How for loop iterate an iterable in Python"
 date: 2023-05-12
 ---
 
 
-In short: it is a lazy processing.
+**In short:** 
+it is a lazy processing.
 
 I am going to make two example to display how *for...in* loop work underneath the cover.  
 First one is loop over a enumerate object, and second one is loop over a range object. Both of them will modify the list inside the loop.
