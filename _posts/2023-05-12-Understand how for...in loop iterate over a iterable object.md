@@ -23,10 +23,11 @@ The code print below:
 [1, 3, 5, 7, 9] 
 ```
 
-- enumerate object is generator object which will yield value from lst. It is lazy process. 
-When lst change, value from enumerate object change as well, but i is keep going. 
+enumerate object is generator object which will yield value from *lst*. It is lazy process. 
+When *lst* change, *value* from enumerate object change as well, but *i* is keep going. 
 
-## for...in is equivalent to:
+**for...in is equivalent to:**
+
 ```python
 _iter = iter(enumerate_obj) 
 while 1:
@@ -36,7 +37,9 @@ while 1:
    break
  # statements
 ```
-- enumerate() is equivalent to:
+
+**enumerate() is equivalent to:**
+
 ```python
 def enumerate(lst):
     n = 0
@@ -53,11 +56,12 @@ for i in range(len(lst)):
    lst.pop(i)
 ```
 
-- This code will raise IndexError
+**This code will raise IndexError
 
-- range() is iterable, but len(lst) in range() parameter here have been replace with constant value 10. Because len(lst) is not a lazy process. it don’t change any more. So i will up to 9. 
+*range()* is iterable, but *len(lst)* in range() parameter here have been replace with constant value 10. Because *len(lst)* is not a lazy process. it don’t change any more. So *i* will up to 9. 
 
-- So the codes are equivalent to:
+**The codes are equivalent to:
+
 ```python
 for i in range(9):
    lst.pop(i)
