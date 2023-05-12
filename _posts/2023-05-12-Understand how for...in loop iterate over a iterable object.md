@@ -1,5 +1,5 @@
 ---
-title: "How do for...in loop iterate over an iterable object in Python"
+title: "How *for* loop iterate an iterable in Python"
 date: 2023-05-12
 ---
 
