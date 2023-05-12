@@ -18,6 +18,7 @@ for i, value in enumerate(lst):
 print(lst)
 
 **There are No error raising for these codes, but they are not work as expected.**
+
 The code print below:
 
 ```
@@ -57,11 +58,11 @@ for i in range(len(lst)):
    lst.pop(i)
 ```
 
-**This code will raise IndexError
+**This code will raise IndexError**
 
 *range()* is iterable, but *len(lst)* in range() parameter here have been replace with constant value 10. Because *len(lst)* is not a lazy process. it don’t change any more. So *i* will up to 9. 
 
-**The codes are equivalent to:
+**The codes are equivalent to:**
 
 ```python
 for i in range(9):
