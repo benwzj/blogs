@@ -41,12 +41,12 @@ And iterator also is an object with a __next__ method that returns the next valu
 
 # Pure iterables
 Maybe we can produce a pure iterable concept.
-Pure iterables typically hold the data themselves, and return a fresh iterator.
-In contrast, iterators are not pure iterables that don’t hold the data but produce and maintians state. 
+Pure iterable typically hold the data itself, and return fresh iterator.
+In contrast, iterator is not pure iterable that fetch data and return itself. 
 
 # Conclusion
-Many people say iterator is iterable as well, and iterable don't have to be iterator. 
-But they also say iterator and iterable are different, like iterables are more effecient in memory consumsion. 
+Many people say iterators are iterables as well, and iterables don't have to be iterators. 
+But they also say iterators and iterables are different, like iterators are more effecient in memory consumsion. 
 That is confusing concept. 
 I reckon iterator don't have to support __iter__().  That means iterator don't have to be iterable. Just like JavaScript.
 
