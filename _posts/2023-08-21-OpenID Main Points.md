@@ -3,7 +3,7 @@ title: "OpenID Main Points"
 date: 2023-08-21
 ---
 
-**In short:**
+# OpenID Main Points
 
 - OpenID is based on a simple idea: a user authenticates with an identity provider (IDP), who then provides the user with a unique identifier (called an OpenID). This identifier can then be used to authenticate the user with any website that supports OpenID.
 - The OpenID standard provides a framework for the communication that must take place between the identity provider and the OpenID acceptor(relying parties)
@@ -14,6 +14,6 @@ date: 2023-08-21
 
 - Users need to create accounts by selecting an OpenID identity provider and then use those accounts to sign onto any website that accepts OpenID authentication.
 
-# It is NOT for authorization, just use for Identity authentication. But why?
+# OpenID is NOT for authorization, It is just used for Identity authentication. But why?
 
 - Because it don’t want to. Authorization is left to relying parties.
