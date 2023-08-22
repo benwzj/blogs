@@ -1,5 +1,5 @@
 ---
-title: "OpenID Main Points"
+title: "OAuth Main Points"
 date: 2023-08-21
 ---
 
