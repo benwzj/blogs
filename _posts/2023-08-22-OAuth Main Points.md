@@ -1,0 +1,23 @@
+---
+title: "OpenID Main Points"
+date: 2023-08-21
+---
+
+# In Short
+
+- OAuth(Open Authorization) is a standard for authorization that grants access to Other resources via access tokens.
+- OAuth is for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords.
+- This mechanism is used by big companies such as Amazon, Google, Facebook, Microsoft, and Twitter to permit users to share information about their accounts with third-party applications or websites.
+
+# Why OAuth show up
+
+- OAuth began in November 2006 when Blaine Cook was developing the Twitter OpenID implementation. And they concluded that there were no open standards for API access delegation.
+
+# OAuth is not for authentication
+
+- The OAuth 2.0 Framework describes overarching patterns for granting authorization but does not define how to actually perform authentication.
+- OAuth is an authorization protocol, rather than an authentication protocol. Using OAuth on its own as an authentication method may be referred to as pseudo-authentication
+
+![alt text for screen readers](/images/1024px-OpenIDvs.Pseudo-AuthenticationusingOAuth "Text to show on mouseover").
+
+- OpenID Connect (OIDC) extends the OAuth 2.0 authorization protocol for use as an additional authentication protocol. You can use OIDC to enable single sign-on (SSO) between your OAuth-enabled applications by using a security token called an ID token.
