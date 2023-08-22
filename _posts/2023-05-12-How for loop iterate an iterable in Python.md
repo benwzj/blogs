@@ -2,6 +2,7 @@
 layout: post
 title: "How for loop iterate an iterable in Python -test"
 date: 2023-05-12
+categories: blogs
 ---
 
 **In short:**
