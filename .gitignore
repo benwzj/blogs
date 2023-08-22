@@ -44,6 +44,6 @@ _site
 vendor
 
 # gemfile
-gemfile
-Genfile.lock
+Gemfile
+Gemfile.lock
 about.markdown
