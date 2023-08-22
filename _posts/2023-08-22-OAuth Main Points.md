@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "OAuth Main Points"
 date: 2023-08-21
 ---
