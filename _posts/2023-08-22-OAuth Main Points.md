@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OAuth Main Points"
-date: 2023-08-21
+date: 2023-08-22
 ---
 
 # In Short

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How for loop iterate an iterable in Python -test"
+title: "How for loop iterate an iterable in Python"
 date: 2023-05-12
 ---
 
