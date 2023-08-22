@@ -4,5 +4,4 @@
 
 # layout: home
 title: Welcome to Ben IT blog
-layout: home
 ---
