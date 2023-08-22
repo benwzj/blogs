@@ -2,7 +2,6 @@
 layout: post
 title: "Iterable Iterator concept in Python"
 date: 2023-05-13
-categories: blogs
 ---
 
 **In short:**
