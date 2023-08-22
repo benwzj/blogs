@@ -18,6 +18,6 @@ date: 2023-08-21
 - The OAuth 2.0 Framework describes overarching patterns for granting authorization but does not define how to actually perform authentication.
 - OAuth is an authorization protocol, rather than an authentication protocol. Using OAuth on its own as an authentication method may be referred to as pseudo-authentication
 
-![alt text for screen readers](/images/1024px-OpenIDvs.Pseudo-AuthenticationusingOAuth "Text to show on mouseover").
+![Flow](https://en.wikipedia.org/wiki/File:OpenIDvs.Pseudo-AuthenticationusingOAuth.svg)
 
 - OpenID Connect (OIDC) extends the OAuth 2.0 authorization protocol for use as an additional authentication protocol. You can use OIDC to enable single sign-on (SSO) between your OAuth-enabled applications by using a security token called an ID token.
