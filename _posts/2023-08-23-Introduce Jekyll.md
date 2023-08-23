@@ -4,15 +4,15 @@ title: " Introduce Jekyll "
 date: 2023-08-23
 ---
 
-# In short
+# What is Jekyll
 
-- Jekyll is a static site generator
-- Jekyll is ruby project.
-- Jekyll support Markdown.
+- Jekyll is a static website generator
+- It is ruby project.
+- It supports Markdown.
+- You can run Jekyll in your own computor to setup website server.
 - GitHub Pages use Jekyll to provide website service for your repo.
 
-# How it work
+# How GitHub Pages work
 
 - You can update your website content, for example blogs, by updating your repo.
-- GitHub Pages internally build your content by using Jekyll.
-- You can use Jekyll in your own computor to setup website server.
+- GitHub Pages can internally build your content by using Jekyll.
