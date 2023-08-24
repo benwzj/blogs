@@ -15,4 +15,5 @@ date: 2023-08-23
 # How GitHub Pages work
 
 - You can update your website content, for example blogs, by updating your repo.
-- GitHub Pages can internally build your content by using Jekyll.
+- GitHub Pages will automatically build your content by using Jekyll.
+  a
