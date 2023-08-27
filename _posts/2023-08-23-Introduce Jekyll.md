@@ -56,4 +56,4 @@ You can set this environment variable in \_config.yml file.
 baseurl: "/blogs" # the subpath of your site
 ```
 
-This will be helpful if you want to test the website in your local machine.
+Seting up this will be helpful if you want to test the website in your local machine.

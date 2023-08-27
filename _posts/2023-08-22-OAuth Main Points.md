@@ -21,4 +21,6 @@ date: 2023-08-22
 - This is what pseudo-authentication means:
   ![Flow](/blogs/assets/img/OpenIDvs.Pseudo-AuthenticationusingOAuth.png)
 
-- OpenID Connect (OIDC) extends the OAuth 2.0 authorization protocol for use as an additional authentication protocol. You can use OIDC to enable single sign-on (SSO) between your OAuth-enabled applications by using a security token called an ID token.
+- For example, when an App, like SelfPrint, sign in using **Social sign-in**, like Google, It is using OAuth. It is Pseudo-Authentication. Gmail provides the tokens that allow SelfPrint to access your Photos.
+
+- Now, OpenID Connect (OIDC) extends the OAuth 2.0 authorization protocol for use as an additional authentication protocol. You can use OIDC to enable single sign-on (SSO) between your OAuth-enabled applications by using a security token called an ID token.

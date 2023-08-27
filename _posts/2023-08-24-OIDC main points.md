@@ -1,7 +1,7 @@
 ---
 layout: post
 title: " OIDC Main Points "
-date: 2023-08-23
+date: 2023-08-24
 ---
 
 # What is OIDC
