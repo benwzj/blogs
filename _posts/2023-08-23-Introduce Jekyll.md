@@ -17,9 +17,9 @@ date: 2023-08-23
 - You can update your website content, for example blogs, by updating your repo.
 - GitHub Pages will automatically build your content by using Jekyll.
 
-# Jekyll syntax
+## Jekyll syntax
 
-## Front Matter
+# Front Matter
 
 The front matter is the first thing in the file and must take the form of valid YAML set between triple-dashed lines.
 Here is a basic example:
@@ -45,9 +45,18 @@ categories: CATEGORY-1 CATEGORY-2
 
 Any file that contains a YAML front matter block will be processed by Jekyll as a special file.
 
-# FQA
+## FQA
 
-## baseurl issue
+# How to update posts
+
+- All posts is located in `_posts` directory. You can add and update posts from there.
+- Jekyll requires blog post files to be named according to the following format:
+
+`YEAR-MONTH-DAY-title.MARKUP`
+
+Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file.
+
+# baseurl issue
 
 When you setup github page in github, it sets this baseurl to your repo name, for example 'blogs', if your repo is 'blogs'.
 You can set this environment variable in \_config.yml file.
@@ -57,3 +66,7 @@ baseurl: "/blogs" # the subpath of your site
 ```
 
 Seting up this will be helpful if you want to test the website in your local machine.
+
+# test environment
+
+Need to install Ruby.
