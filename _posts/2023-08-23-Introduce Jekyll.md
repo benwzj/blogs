@@ -18,6 +18,8 @@ date: 2023-08-23
 - RubyGems
 - GCC and Make
 
+---
+<br>
 ## What is GitHub Pages
 
 GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
@@ -26,6 +28,8 @@ GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScri
 - You can publish your site when changes are pushed to a specific branch, GitHub Pages will use Jekyll to build your site by default.
 - GitHub Pages does not support server-side languages such as PHP, Ruby, or Pythoy.
 
+---
+<br>
 ## Jekyll syntax
 
 # Front Matter
@@ -54,11 +58,12 @@ categories: CATEGORY-1 CATEGORY-2
 
 Any file that contains a YAML front matter block will be processed by Jekyll as a special file.
 
+---
+<br>
+
 ## Setup GitHub Pages Steps
 
-<details id=1> <summary><h3>Step 1: Enable GitHub Pages</h3></summary>
-
-### :keyboard: Activity: Enable GitHub Pages
+<h3>Step 1: Enable GitHub Pages</h3>
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
 1. Under your repository name, click **Settings**.
@@ -69,12 +74,7 @@ Any file that contains a YAML front matter block will be processed by Jekyll as 
    > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
    > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
 
-</details>
-
-<details id=2>
-<summary><h2>Step 2: Configure your site</h2></summary>
-
-### :keyboard: Activity: Configure your site
+<h3>Step 2: Configure your site</h3>
 
 1. Browse to the `_config.yml` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
@@ -87,16 +87,11 @@ Any file that contains a YAML front matter block will be processed by Jekyll as 
 1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
 1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
-
-<details id=3>
-<summary><h2>Step 3: Customize your homepage</h2></summary>
+<h3>Step 3: Customize your homepage</h3>
 
 _Nice work setting the theme! :sparkles:_
 
 You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
-
-### :keyboard: Activity: Create your homepage
 
 1. Browse to the `index.md` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
@@ -105,10 +100,7 @@ You can customize your homepage by adding content to either an `index.md` file o
 1. Commit your changes to the `my-pages` branch.
 1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
-
-<details id=4>
-<summary><h2>Step 4: Create a blog post</h2></summary>
+<h3>Step 4: Create a blog post</h3>
 
 **What is _frontmatter_?**: The syntax Jekyll files use is called YAML frontmatter. It goes at the top of your file and looks something like this:
 
@@ -118,8 +110,6 @@ title: "Welcome to my blog"
 date: 2019-01-20
 ---
 ```
-
-### :keyboard: Activity: Create a blog post
 
 1. Browse to the `my-pages` branch.
 1. Click the `Add file` dropdown menu and then on `Create new file`.
@@ -138,21 +128,15 @@ date: 2019-01-20
 1. Commit your changes to your branch.
 1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
-
-<details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
-
-### :keyboard: Activity: Merge your changes
+<h3>Step 5: Merge your pull request</h3>
 
 1. Merge your changes from `my-pages` into `main`. If you created the pull request in step 2, just open that PR and click on **Merge pull request**. If you did not create the pull request earlier, you can do it now by following the instructions in step 2.
 1. (optional) Delete the branch `my-pages`.
 1. Wait about 20 seconds then refresh this page for the next step.
 
-</details>
-
 ---
 
+<br>
 ## FQA
 
 # How to update posts
