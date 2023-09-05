@@ -20,15 +20,9 @@ $ bundle exec jekyll serve
 
 _Create a site or blog from GitHub repositories with GitHub Pages._
 
-<details id=0>
-<summary><h2>Welcome</h2></summary>
-
-With GitHub Pages, you can host project blogs, documentation, resumes, portfolios, or any other static content you'd like. Your GitHub repository can easily become its own website. In this course, we'll show you how to set up your own site or blog using GitHub Pages.
-
-</details>
-
 <details id=1>
 <summary><h2>Step 1: Enable GitHub Pages</h2></summary>
+
 ### :keyboard: Activity: Enable GitHub Pages
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
